@@ -1,5 +1,5 @@
 Information About the Post
 
-<%= render 'author' %>
+<%= render 'authors/author', locals: {post_author: @author} %>
 <%= @post.title %>
 <%= @post.content %>
